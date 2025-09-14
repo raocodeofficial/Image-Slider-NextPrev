@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#eceffe, #ced6fb);
+}
+.card-list .card-item {
+  list-style: none;
+}
+.card-list .card-item .card-link {
+  width: 400px;
+  display: block;
+  background: #fff;
+  padding: 18px;
+
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+.card-list .card-item .card-link:hover {
+  border: 2px solid #5372f0;
+}
+.card-list .card-link .card-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-list .card-link .badge.designer {
+  color: #b22485;
+  background: #f7dff5;
+}
+.card-list .card-link .badge.coder {
+  color: #b25a28;
+  background: #ffe3d2;
+}
+.card-list .card-link .badge.viewer {
+  color: #205c20;
+  background: #d6f8d6;
+}
+.card-list .card-link .badge.prodeucer {
+  color: #856404;
+  background: #fff3cd;
+}
+.card-list .card-link .badge {
+  color: #5372f0;
+  background: #dde4ff;
+  margin: 16px 0 18px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 8px 16px;
+}
+.card-list .card-link .card-title {
+  color: #000;
+  font-size: 1.19rem;
+  font-weight: 600;
+}
+
+.card-list .card-link .card-button {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 30px 0 5px;
+  border: 2px solid #5372f0;
+  background: none;
+  cursor: pointer;
+  transform: rotate(-45deg);
+}
+.card-list .card-link:hover .card-button {
+  color: #fff;
+  background: #5372f0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper {
+  overflow: hidden;
+  width: 80%;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-item {
+  flex: 0 0 auto;
+}
+
+.nav-btn {
+  background: #5372f0;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  background: #3451c9;
+}
